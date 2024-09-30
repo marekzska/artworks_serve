@@ -63,7 +63,7 @@ export async function GET(request: Request) {
     });
 
     return NextResponse.json({
-      result,
+      result: result.sort(() => Math.random() - 0.5),
     });
   } else {
     return NextResponse.json(

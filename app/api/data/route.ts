@@ -1,4 +1,4 @@
-import ArtObject from "@/assets/ArtObject";
+import ArtObject from "@/public/assets/ArtObject";
 import { ArtmovementsEnum } from "@/model/enums/ArtmovementsEnum";
 import { NextResponse } from "next/server";
 
